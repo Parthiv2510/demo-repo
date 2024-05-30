@@ -1,0 +1,33 @@
+/* Earn Extra Money Section */
+.earn-extra-money {
+    background-color: #f9f9f9; /* Background color */
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center align text */
+  }
+  
+  .earn-extra-money h2 {
+    font-size: 24px; /* Font size for section title */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+  }
+  
+  .earn-extra-money p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px; /* Font size for paragraph text */
+    color: #666; /* Text color */
+    margin-bottom: 40px; /* Bottom margin for spacing */
+    text-align: left;
+    text-align: justify;
+  }
+  
+  .earn-extra-money img {
+    border-radius: 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 500px; 
+    height: 200px; 
+    float: left;
+    
+    
+}

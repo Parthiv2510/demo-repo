@@ -1,0 +1,36 @@
+  .manage-categories {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .manage-categories h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+    
+    .category-form {
+      margin-bottom: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    
+    .category-form input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .category-form button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    

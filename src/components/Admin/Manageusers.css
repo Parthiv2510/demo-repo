@@ -1,0 +1,71 @@
+.manage-users {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.manage-users h2 {
+  color: #333;
+}
+
+.manage-users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.manage-users table th, .manage-users table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.manage-users table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.manage-users table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.manage-users table tr:hover {
+  background-color: #ddd;
+}
+
+.manage-users button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.manage-users button:hover {
+  background-color: #45a049;
+}
+
+.change-password {
+  margin-top: 20px;
+}
+
+.change-password input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.change-password button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.change-password button:hover {
+  background-color: #45a049;
+  
+}

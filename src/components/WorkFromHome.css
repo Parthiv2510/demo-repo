@@ -1,0 +1,17 @@
+.workfromhome{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.workfromhome img{
+
+    border-radius: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 500px; 
+    height: 200px; 
+    float: left;
+    
+}

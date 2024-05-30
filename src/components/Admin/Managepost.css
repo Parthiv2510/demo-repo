@@ -1,0 +1,118 @@
+.managepost {
+  padding: 20px;
+}
+
+.managepost h2 {
+  margin-bottom: 20px;
+}
+
+.managepost button {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.managepost button:hover {
+  background-color: #45a049;
+}
+
+.managepost .new-post-form {
+  margin: 10px 0;
+  width: 600px; /* Set width for the form */
+}
+
+.managepost .new-post-form input[type='text'],
+.managepost .new-post-form textarea,
+.managepost .new-post-form input[type='file'] {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.managepost ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add some space between the list items */
+  justify-content: center; /* Center the list items */
+}
+
+.managepost li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 600px; /* Set specific width for the list items */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.managepost li h3 {
+  margin: 0 0 10px 0;
+}
+
+.managepost li p {
+  margin: 0 0 10px 0;
+}
+
+.managepost .post-image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.managepost li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.managepost li button:hover {
+  background-color: #d32f2f;
+}
+
+/* Managepost.css */
+.managepost {
+  padding: 20px;
+}
+
+.new-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.new-post-form input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.new-post-form input[type="file"] {
+  margin-top: 10px;
+}
+
+.image-preview {
+  margin-top: 10px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Managepost.css */
+.new-post-form select {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

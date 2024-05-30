@@ -1,0 +1,70 @@
+
+header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .topleft img {
+    height: 50px;
+  }
+  
+  .topcenter {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toplist {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .toplist li {
+    margin: 0 15px;
+  }
+  
+  .toplistItems {
+    color: #333;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px; /* Adjust font size to match the design */
+    font-weight: bold; /* Make the text bold if needed */
+    text-transform: uppercase; /* Change text to uppercase if needed */
+    
+  }
+  
+  .toplistItems:hover {
+    color: #f76c6c;
+  }
+  
+  .fa-house {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #f76c6c; /* Adjust color to match the home icon in the image */
+  }
+  
+  .topright {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topright .fa-magnifying-glass {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .topright .fa-magnifying-glass:hover {
+    color: #fb5353;
+  }
+  
